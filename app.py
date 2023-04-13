@@ -15,7 +15,7 @@ def readDetails(filename):
 @app.route("/")
 def homeInfo():
     name= "my name"
-    details= readDetails('static\details.txt')
+    details= readDetails('static/details.txt')
     # title = "Welcome To My Awsome Website CACHOWWW!!!!!"
     # details = "I am a cs major at UTRGV. I Lift some heavy ass weight. PR or ER babyyyyy!!!! "
     # imgDis = "I want to grow up to be just like bernie, super old"
